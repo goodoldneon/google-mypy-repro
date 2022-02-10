@@ -1,0 +1,1 @@
+This stubs are only here to make mypy shut up about Google deps. I think the problem is caused by `google.cloud.billing` saying "I have types!" (via `google/cloud/billing/py.typed`), but none of the Google deps *actually* have types.
